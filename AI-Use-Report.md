@@ -2,9 +2,10 @@
 
 ## Team Members
 
-- 
-- 
-- 
+- Andy Ridore
+- Danie Astudillori
+- Christian Edwards
+- Leonardo Deveci
 
 ## Did your team use GitHub Copilot?
 
