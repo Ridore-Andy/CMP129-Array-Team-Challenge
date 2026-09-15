@@ -5,12 +5,14 @@ public class ArrayTeamChallenge {
 
         int[] scores = {78, 92, 85, 67, 95, 88, 73, 90};
 
+        System.out.println("\nChallenge 1");
         // Challenge 1:
         // Display every score in the array using a loop.
         for (int i = 0; i < scores.length; i++){
             System.out.println(scores[i] + " ");
         }
 
+        System.out.println("\nChallenge 2");
         // Challenge 2:
         // Calculate and display the average score.
         // Your solution should still work if more scores are added.
@@ -19,9 +21,10 @@ public class ArrayTeamChallenge {
             scoreSum += scores[i];
         }
         double scoreAvg = scoreSum / scores.length;
-        System.out.print(scoreAvg);
+        System.out.println(scoreAvg);
         
-        // Challenge 3:
+        System.out.println("\nChallenge 3");
+        // Challenge 3: 
         // Find and display the highest and lowest score in the array.
         // Do not simply print 95.
         int highest = scores[0];
@@ -37,8 +40,11 @@ public class ArrayTeamChallenge {
             }
             
         }
+        System.out.println("Higest score: "+highest);
+        System.out.println("Lowest score: "+lowest);
 
 
+        System.out.println("\nChallenge 4");
         // Challenge 4:
         // Count and display how many scores are above the average.
         int aboveAvg = 0;
@@ -47,16 +53,16 @@ public class ArrayTeamChallenge {
             if(scores[i]>scoreAvg)
                 aboveAvg=aboveAvg + 1;
         }
-        System.out.print("Students above average: "+aboveAvg);
+        System.out.println("Students above average: "+aboveAvg);
 
-
+        System.out.println("\nBonus 1");
         // BONUS 1 - REVERSE ORDER:
         // Display the scores in reverse order.
         for (int i = scores.length - 1; i >= 0; i--) {
-            System.out.print(scores[i] + " ");
+            System.out.println(scores[i] + " ");
         }
         
-
+        System.out.println("\nBonus 2");
         // BONUS 2 - SCORE SEARCH:
         // Ask the user to enter a score to search for.
         // Determine whether the score exists in the array.
